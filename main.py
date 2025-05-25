@@ -1,7 +1,8 @@
 import streamlit as st
-import mysql-connector
+import mysql.connector
 import datetime
 import pandas as pd
+
 
 st.set_page_config(page_title="CUSTOMER MANAGEMENT SYSTEM", page_icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrxLaA404LP8zdl8_ms3qQ3z38xmKcvtgj-g&s")
 st.title("CUSTOMER MANAGEMENT SYSTEM")
